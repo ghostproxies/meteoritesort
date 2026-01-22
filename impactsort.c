@@ -1,16 +1,18 @@
 // Copyright William Stafford Parsons
 
-public static void MeteoriteSort(int[] elements) {
+#include <stddef.h>
+
+void impactsort(int *elements, size_t elements_length) {
   int element;
-  int gap = elements.Length;
-  int i;
-  int j;
+  size_t gap = elements_length;
+  size_t i;
+  size_t j;
 
   while (gap > 15) {
     gap = ((gap >> 2) - (gap >> 4)) + (gap >> 3);
     i = gap;
 
-    while (i < elements.Length) {
+    while (i < elements_length) {
       element = elements[i];
       j = i;
 
@@ -30,7 +32,7 @@ public static void MeteoriteSort(int[] elements) {
   i = 1;
   gap = 0;
 
-  while (i < elements.Length) {
+  while (i < elements_length) {
     element = elements[i];
     j = i;
 

@@ -1,6 +1,6 @@
-# MeteoriteSort
+# ImpactSort
 
-[![MeteoriteSort](https://repository-images.githubusercontent.com/1138710336/ef4aa968-17e2-454b-a06e-f680c5a42b73)](https://github.com/ghostproxies/meteoritesort)
+[![ImpactSort](https://repository-images.githubusercontent.com/1138710336/ef4aa968-17e2-454b-a06e-f680c5a42b73)](https://github.com/ghostproxies/impactsort)
 
 ## Table of Contents
 
@@ -12,7 +12,7 @@
 
 ## Introduction
 
-MeteoriteSort is an efficient unstable sorting algorithm.
+ImpactSort is an efficient unstable sorting algorithm.
 
 It's an in-place `insertionsort` and `shellsort` derivative that's intended to replace sorting algorithms with the [fastest speed](README.md?tab=readme-ov-file#speed) for a majority of array lengths when both the specific distribution of presorted elements isn't predictable and the presorted order of duplicate elements isn't relevant.
 
@@ -20,11 +20,11 @@ Furthermore, it has [simple implementation](README.md?tab=readme-ov-file#referen
 
 ## Author
 
-MeteoriteSort was created by [William Stafford Parsons](https://github.com/williamstaffordparsons) as a product of [GhostProxies](https://ghostproxies.com).
+ImpactSort was created by [William Stafford Parsons](https://github.com/williamstaffordparsons) as a product of [GhostProxies](https://ghostproxies.com).
 
 ## License
 
-MeteoriteSort is licensed with the [BSD-3-Clause](LICENSE) license.
+ImpactSort is licensed with the [BSD-3-Clause](LICENSE) license.
 
 The default phrase `the copyright holder` in the 3rd clause is replaced with `GhostProxies`.
 
@@ -32,9 +32,9 @@ The default phrase `the copyright holder` in the 3rd clause is replaced with `Gh
 
 ### C Implementation
 
-[meteoritesort.c](meteoritesort.c)
+[impactsort.c](impactsort.c)
 
-The `meteoritesort` function sorts an array of elements in ascending order without preserving the presorted order of duplicate elements.
+The `impactsort` function sorts an array of elements in ascending order without preserving the presorted order of duplicate elements.
 
 `elements_length` must be the count of elements in the `elements` array.
 
@@ -42,23 +42,23 @@ The integral type of `element` must match the integral type of each element in t
 
 ### C# Implementation
 
-[meteoritesort.cs](meteoritesort.cs)
+[impactsort.cs](impactsort.cs)
 
-The `MeteoriteSort` function sorts an array of elements in ascending order without preserving the presorted order of duplicate elements.
+The `ImpactSort` function sorts an array of elements in ascending order without preserving the presorted order of duplicate elements.
 
 The integral type of `element` must match the integral type of each element in the `elements` array.
 
 ### Go Implementation
 
-[meteoritesort.go](meteoritesort.go)
+[impactsort.go](impactsort.go)
 
-The `MeteoriteSort` function sorts an array of elements in ascending order without preserving the presorted order of duplicate elements.
+The `ImpactSort` function sorts an array of elements in ascending order without preserving the presorted order of duplicate elements.
 
 The integral type of `element` must match the integral type of each element in the `elements` array.
 
 ## Speed
 
-MeteoriteSort was benchmarked and refined extensively during development with varying 64-bit architectures, compilers, compiler optimization settings, devices, programming languages and sorting scenarios.
+ImpactSort was benchmarked and refined extensively during development with varying 64-bit architectures, compilers, compiler optimization settings, devices, programming languages and sorting scenarios.
 
 The result was 1st-place speed rankings that are likely consistent across a majority of implementations compared to competing algorithms such as `heapsort`, `mergesort`, `quicksort`, `radixsort` and `shellsort`.
 

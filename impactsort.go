@@ -1,6 +1,6 @@
 // Copyright William Stafford Parsons
 
-func MeteoriteSort(elements []int) {
+func ImpactSort(elements []int) {
   var element int
   gap := len(elements)
   var i int
