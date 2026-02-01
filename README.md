@@ -12,7 +12,7 @@
 
 ## Introduction
 
-ImpactSort is an efficient unstable sorting algorithm.
+ImpactSort is the efficient unstable sorting algorithm.
 
 It's an in-place `insertionsort` and `shellsort` derivative that's intended to replace sorting algorithms with the [fastest speed](README.md?tab=readme-ov-file#speed) for a majority of array lengths when both the specific distribution of presorted elements isn't predictable and the presorted order of duplicate elements isn't relevant.
 
