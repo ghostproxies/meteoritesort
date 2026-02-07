@@ -58,7 +58,7 @@ The integral type of `element` must match the integral type of each element in t
 
 ## Speed
 
-ImpactSort was benchmarked and refined extensively during development with varying 64-bit architectures, compilers, compiler optimization settings, devices, programming languages and sorting scenarios.
+ImpactSort was benchmarked and refined extensively during development with varying architectures, compilers, compiler optimization settings, devices, programming languages and sorting scenarios.
 
 The result was 1st-place speed rankings that are likely consistent across a majority of implementations compared to competing algorithms such as `heapsort`, `mergesort`, `quicksort`, `radixsort` and `shellsort`.
 
